@@ -12,7 +12,7 @@
 
   ID:               fontaudio
   vendor:           fefanto
-  version:          1.0.0
+  version:          1.2.0
   name:             Font Audio
   description:      Font Audio is an icon font for audio UIs.
   website:          https://github.com/fefanto/fontaudio
