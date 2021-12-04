@@ -43,7 +43,7 @@ namespace fontaudio
     RenderedIcon renderdIcon = getIcon(icon, size, colour, scaleFactor);
     canvas = juce::Image(juce::Image::PixelFormat::ARGB, renderdIcon.getWidth(), renderdIcon.getHeight(), true);
     juce::Graphics g(canvas);
-    g.drawImageTransformed(renderdIcon, juce::AffineTransform::rotation(-(juce::float_Pi * iconRotation), renderdIcon.getWidth() * 0.5f, renderdIcon.getHeight() * 0.5f));
+    g.drawImageTransformed(renderdIcon, juce::AffineTransform::rotation(-(juce::MathConstants<float>::pi * iconRotation), renderdIcon.getWidth() * 0.5f, renderdIcon.getHeight() * 0.5f));
     juce::ImageCache::addImageToCache(canvas, hash);
     return canvas;
   }

@@ -2,3 +2,4 @@
 /wrappers/juce/scratch_project
 *.log
 .vscode/
+.DS_Store
